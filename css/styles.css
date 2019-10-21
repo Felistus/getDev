@@ -1,0 +1,402 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header{
+    width: 100%;
+    height: 90vh;
+    background-image: url("../images/1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo{
+    padding: 0 0;
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.nav-bar{
+    text-align: center;
+}
+.nav-bar ul{
+    padding: 1% 0;
+}
+.nav-bar hr{
+    width: 60%;
+    height: 1px;
+    margin: auto;
+    background-color: gray;
+    border: none;
+}
+.nav-bar ul a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-bar ul li{
+    display: inline-block;
+    padding: 0 15px;
+    text-transform: capitalize;
+    list-style: none;
+    font-size: 13px;
+}
+.vivamus{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 2.3rem;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.header-article{
+    width: 250px;
+    height: auto;
+    padding: 20px;
+    margin: 23px auto;
+    border: 2px solid #fff; 
+    text-align: center;   
+}
+.header-text{
+    text-transform: uppercase;
+    font-size: 1rem;
+    opacity: .4;
+    line-height: 2rem;
+    word-spacing: .5rem;
+    color: lightgray;
+}
+.btn{
+    margin: auto;
+    width: 120px;
+    height: 30px;
+    margin-top: -38px;
+}
+.read{
+    border: none;
+    width: 120px;
+    height: 30px;
+    background-color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+}
+/* WELCOME */
+.welcome{ width: 100%; padding: 20px 0 40px 0; }
+.description{ 
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+ }
+ .wel-content{
+    display: grid;
+    grid-template-columns: 18vw 420px 400px;
+    gap: 20px;
+    place-content: center;
+ }
+ .wel-first{
+    height: 320px;
+}
+.wel-second .wel-p{
+    text-align: justify;
+}
+.wel-third{
+    background-color: lightgray;
+    padding: 10px 40px;
+}
+#cute{
+    width: 100%;
+    height: 100%;
+}
+.wel-list{ list-style: none; padding-bottom: 10px; }
+.list-flex{
+    display: flex;
+}
+.list-flex .fas{
+    color: darkgrey;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.wel-third-title{
+    color: red;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+.wel-list li{
+    padding: 8px 0;
+    color: darkgrey;
+}
+/* SERVICES */
+.services{  width: 100%; padding: 20px 0 40px 0; background-color: lightgray; }
+.services-content{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    gap: 20px;
+    place-content: center;
+}
+.ser-first{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    padding: 10px;
+}
+.ser-second{
+    padding: 10px;
+    text-align: justify;
+}
+.ser-first-1{ padding: 0 0 10px 0; }
+.ser-first-1 .fas, .ser-first-1 .fab{
+    width: 50px;
+    height: 50px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    padding: 19px 0;
+    color: red;
+    font-weight: bold;
+}
+.icon-text{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: .7rem;
+    padding-top: 3px
+}
+.lead:nth-child(1){
+    font-weight: bold;
+}
+/* quote */
+.quote{
+    padding: 35px 0;
+    width: 100%;
+    background-image: url("../images/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.quote-text{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.quote-icon{
+    color: whitesmoke;
+    padding: 15px 0;
+}
+.quote-author{
+    font-weight: bold;
+    color: whitesmoke;
+}
+#author{
+    text-transform: uppercase;
+    padding: 15px 0;
+    color: lightgray;
+}
+blockquote{
+    line-height: 20px;
+    color: lightgray;
+    font-size: 1em;
+    letter-spacing: .1vw;
+}
+/* event */
+.event{
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 10px 30px 30px 30px;
+}
+.event-grid{
+    display: grid;
+    grid-template-columns: 250px 300px 250px;
+    justify-content: center;
+}
+.event-title{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+.event-img{
+    height: 200px;
+}
+.event-image{
+    width: 100%;
+    height: 100%;
+}
+.event-icon{
+    background-color: red;
+    color: whitesmoke;
+    width: 30px;
+    padding: 10px 5px;
+    height: 85px;
+    margin-left: -10px;
+}
+.cal{
+    padding: 25px;
+    position: relative;
+    right: -50px;
+}
+.cal-img{ width: 200px; height: 150px;}
+.event-icon .fab{
+    padding: 3px 0;
+}
+.grid-2, .grid-3{ margin-top: -10px; }
+.grid-2 .event-icon{
+    position: relative;
+    right: -240px;
+}
+.grid-2 .cal{
+    position: relative;
+    left: -50px;
+}
+.event-icon:hover{
+    cursor: pointer;
+}
+/* menu */
+#menu{ width: 100%; padding: 30px 0; background-color: rgb(61, 54, 54); }
+.menu{
+    display: grid;
+    grid-template-columns: 120px 200px 150px 400px;
+    gap: 50px;
+    place-content: center;
+    color: lightgray;
+}
+.gallery-grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 100px 100px;
+}
+.all-border{ border: 1px solid whitesmoke; }
+.tag{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 0 0 10px 0;
+}
+.social .fab{
+    padding: 0 5px;
+}
+.social .fab:hover{
+    color: red;
+    cursor: pointer;
+    font-size: x-large;
+}
+.address, .job, .gallery {
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    padding-top: 22px;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-bottom: 0 !important;
+}
+.image{
+    width: 100%;
+    height: 100%;
+}
+.underline{
+    height: 1px;
+    border: none;
+    background-color: red;
+    margin-bottom: 22px !important;
+}
+#underline-1{ width: 60px; }
+#underline-2{ width: 30px; }
+#underline-3{ width: 40px; }
+#address{
+    text-transform: capitalize;
+    font-size: .8em;
+}
+.number{ color: whitesmoke; font-weight: bold;}
+
+#menu-list{ list-style: none; }
+.navi-flex{ display: flex; }
+.navi-flex .fas { color: darkgrey; padding-right: 10px; padding-top: 3px; }
+#menu-list li{ padding-bottom: 10px; text-transform: capitalize; font-size: .8em;}
+
+/* footer */
+.footer{
+    text-align: center;
+    background-color: rgb(31, 28, 28);
+    padding: 10px;
+    color: whitesmoke;
+    word-spacing: 5px;
+}
+#compName{ color: red; }
+#footTag{ font-family: 'Pacifico', cursive; font-size: 25px; text-transform: capitalize; }
+.nav-box{
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+    padding: 3px;
+    width: 30px;
+    display: none;
+}
+/* media queries */
+/* large screen */
+@media only screen and (min-width: 801px) and (max-width: 1100px) {
+   .wel-content, .services-content{
+       grid-template-columns: 40vw 40vw;
+   } 
+   .wel-third{ position: relative; left: 50%; }
+   .menu{
+        grid-template-columns: repeat(3, 170px);
+        column-gap: 100px;
+        row-gap: 0;
+        padding-left: 50px;
+    }
+    .menu-item4{ position: relative; left: 70%; }
+}
+/* small/medium screen */
+@media only screen and (max-width: 800px) {
+   .wel-content, .services-content{
+       grid-template-columns: 60vw;
+   }  
+   .menu{
+        grid-template-columns: 200px 200px;
+    }
+    .gallery-grid{
+        grid-template-columns: 20vw 20vw;
+    }
+}
+/* small - medium */
+@media only screen and (max-width: 699){
+    .event-grid{
+        /* grid-template-columns: 30vw; */
+    }
+}
+/* small screen */
+@media only screen and (max-width: 500px) {
+    .nav-bar ul li {
+        display: block;
+        padding: 6px 5px;
+    }
+    .nav-bar ul {
+        margin-top: 0;
+        padding: 0;
+    }
+    .nav-box {
+        display: inline-block;
+        cursor: pointer;
+    }
+    #mobileMenu{
+        height: 0px;
+        overflow: hidden;
+        transition: 1s;
+    }
+    .vivamus{
+        letter-spacing: 1.5rem;
+        font-size: 8vw;
+        margin-top: 20px;
+    }
+    .menu{
+        grid-template-columns: 60vw;
+    }
+    .gallery-grid{
+        grid-template-columns: 60vw;
+    }
+}
